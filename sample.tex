@@ -1,0 +1,103 @@
+% Example from below
+% https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+\documentclass[12pt, A4]{article} %  defines the overall class (type) of document.
+%if we use book class instead of article, we can use \chapter{Let's begin} before  \section{•}
+\usepackage{graphicx} %LaTeX package to import graphics
+\graphicspath{{images/}} %configuring the graphicx package
+
+
+% ///////Below is components for title page ///////////
+\title{A Beginner's Guide to \LaTeX}
+\author{Sannan Ahmed\thanks{Checked by Daynial Khan.}}
+\date{\today} %\date{August 2022}
+%/////////////////////////////
+
+
+% any thing above \begin is called preamble
+
+\begin{document}
+
+%if you press two "enter" key then new paragraph will created
+
+
+% ///////this is to make a title page///////////
+\begin{titlepage}
+\maketitle
+\thispagestyle{empty} %this will clear the number from the title page
+\end{titlepage}
+%////////////////////////////////
+
+%to add a table of contents (table of contents need to be updated (cut then Quick Build & paste then Quick Build) if any content changes.
+
+\tableofcontents
+%to add new line
+\newpage
+
+\section{This is First heading}
+
+%normal text
+Don't forget to include examples of topicalization.
+They look like this:
+
+%//////////bold,italic,emphsize and underline/////////////
+Some of the \textbf{greatest}  
+discoveries in \underline{science} 
+were made by \textbf{\textit{accident}}
+not done by \emph{Experts}
+%/////////////////////////////////////////////////
+\subsection{How to handle topicalization}
+This is how a image is inseted in latex.
+% for more details on image use below link
+%https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions#:~:text=It%20is%20always%20good%20practice,command%20within%20the%20float%20environment.
+
+% The \includegraphcs command is provided (implemented) by the graphicx package
+\begin{figure}[!htb] %[!htb] is used to place image where it is in editor
+	\centering
+	\includegraphics[width=7cm]{avatar} 
+	\caption{This is test image.}
+\end{figure}
+
+\subsection{This is second Subheading}
+
+Mood changes when there is a topic, as well as when
+there is WH-movement.  \emph{Irrealis} is the mood when
+there is a non-subject topic or WH-phrase in Comp.
+\emph{Realis} is the mood when there is a subject topic
+or WH-phrase.
+
+%this is how to go on new page
+\newpage
+
+
+\section{This is Second Heading}
+
+% this is how bullets are inserted
+\begin{itemize}
+  \item The individual entries are indicated with a black dot, a so-called bullet.
+  \item The text in the entries may be of any length. \\ %this is how new line is inserted
+\end{itemize}
+
+%this is how list can be inserted 
+\begin{enumerate}
+  \item This is the first entry in our list.
+  \item The list numbers increase with each entry we add. \\
+\end{enumerate}
+
+This is how square root is inserted $E=mc^2$ % under $ is formula or use \begin{math E=mc^2 \end{math}
+
+\subsection{This subsection describe use of table}
+
+\begin{tabular}{|c| c| c|}
+ \hline
+ testing & hello from the other side & cell3 \\ 
+ \hline 
+ cell4 & cell5 & cell6\\  
+ \hline 
+ cell7 & cell8 & cell9 \\
+ \hline    
+\end{tabular} \\line change
+
+paragraph change because we press two enter
+
+
+\end{document}
