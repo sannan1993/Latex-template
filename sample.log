@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.9)  5 OCT 2022 12:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.9)  5 OCT 2022 13:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -94,15 +94,15 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 25.
+(Font)              <20.74> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 25.
+(Font)              <14.4> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 25.
+(Font)              <12> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 25.
+(Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 25.
+(Font)              <5> on input line 24.
  [1
 
 {C:/Users/WIN/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (sample.toc
@@ -133,7 +133,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 [3] (sample.aux) ) 
 Here is how much of TeX's memory you used:
  1343 strings out of 478338
- 21713 string characters out of 2849839
+ 21738 string characters out of 2849839
  321505 words of memory out of 3000000
  19799 multiletter control sequences out of 15000+600000
  476759 words of font info for 52 fonts, out of 8000000 for 9000
@@ -149,7 +149,7 @@ ype1/public/amsfonts/cm/cmr10.pfb><D:/sannan/Miktex/fonts/type1/public/amsfonts
 /cm/cmr12.pfb><D:/sannan/Miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/sa
 nnan/Miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/sannan/Miktex/fonts/typ
 e1/public/amsfonts/cm/cmti12.pfb>
-Output written on sample.pdf (4 pages, 160384 bytes).
+Output written on sample.pdf (4 pages, 160413 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
