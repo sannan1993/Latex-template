@@ -3,6 +3,7 @@
 \documentclass[12pt, A4]{article} %  defines the overall class (type) of document.
 %if we use book class instead of article, we can use \chapter{Let's begin} before  \section{•}
 \usepackage{graphicx} %LaTeX package to import graphics
+\usepackage{url} % used in Bibliology section
 \graphicspath{{images/}} %configuring the graphicx package
 
 
@@ -99,5 +100,12 @@ This is how square root is inserted $E=mc^2$ % under $ is formula or use \begin{
 
 paragraph change because we press two enter
 
+\section{Bibliology and references}
 
+We need to site the book\cite{latex2e} so that it shows in the reference, otherwise it will not show. All the reference information is in the 'refs.bib' file. We can site different types of references.
+
+Here we site a book\cite{texbook},  article\cite{knuth:1984}, inprocessing\cite{lesk:1977}, manual\cite{evita:user} and url\cite{wiki:minV}.
+% referneces
+\bibliographystyle{plainurl} % We choose the "plain" reference style
+\bibliography{refs} % Entries are in the refs.bib file
 \end{document}
